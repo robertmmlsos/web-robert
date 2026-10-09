@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>musicas-2026</title>
+  <link rel="stylesheet" href="estilos-carrusel.css">
+</head>
+<body>
+  <!-- Web semantica -->
+  <header>
+    <nav>
+      <ul>
+        <li>Inicio</li>
+        <li>Carrusel</li>
+        <li>Contactos</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="carousel-section">
+      <h1>Músicas 2026</h1>
+
+      <!-- Carrusel -->
+      <div class="carousel" aria-roledescription="carrusel" aria-label="Músicas 2026">
+
+        <!-- Pista que se desplaza de lado a lado -->
+        <div class="carousel-track" id="carousel-track" aria-live="polite">
+
+          <!-- Diapositiva 1: imagen -->
+          <article class="carousel-slide">
+            <img src="musicas-2026.webp" alt="Imagen de músicas 2026">
+          </article>
+
+          <!-- Diapositiva 2: imagen -->
+          <article class="carousel-slide">
+            <img src="musicas2_2026.webp" alt="Segunda imagen de músicas 2026">
+          </article>
+
+          <!-- Diapositivas 3, 4 y 5: colores (cambiar por tus fotos) -->
+          <article class="carousel-slide slide-blue">
+            <h2>Pop</h2>
+            <p>Los éxitos del año</p>
+          </article>
+
+          <article class="carousel-slide slide-green">
+            <h2>Rock</h2>
+            <p>Bandas y conciertos</p>
+          </article>
+
+          <article class="carousel-slide slide-orange">
+            <h2>Salsa</h2>
+            <p>Para bailar todo el año</p>
+          </article>
+        </div>
+
+        <!-- Botones anterior y siguiente -->
+        <button type="button" class="carousel-btn carousel-btn-prev" id="btn-prev" aria-label="Diapositiva anterior">&#10094;</button>
+        <button type="button" class="carousel-btn carousel-btn-next" id="btn-next" aria-label="Diapositiva siguiente">&#10095;</button>
+      </div>
+
+      <!-- Puntos indicadores (los crea funciones.js) -->
+      <div class="carousel-dots" id="carousel-dots"></div>
+    </section>
+  </main>
+
+  <footer>
+    <ul>
+      <li>Youtube</li>
+      <li>Instagram</li>
+    </ul>
+  </footer>
+
+  <script src="js/funciones.js"></script>
+</body>
+</html>
